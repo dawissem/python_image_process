@@ -1,7 +1,7 @@
 import cv2
 import numpy as np 
 
-image = cv2.imread("C:/Users/47/Desktop/LIM2second_semestre/traitement_iamge/TP/src/leo.jpg")
+image = cv2.imread("img source")
 
 height, width = image.shape[:2] 
 quarter_height, quarter_width = height / 4, width / 4
